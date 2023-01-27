@@ -3,6 +3,16 @@
   "resourceVersion": "1.6",
   "name": "Sins",
   "resources": [
+    {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},"order":0,},
+    {"id":{"name":"spr_placeHolder16x16","path":"sprites/spr_placeHolder16x16/spr_placeHolder16x16.yy",},"order":3,},
+    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":4,},
+    {"id":{"name":"spr_placeHolder32x32","path":"sprites/spr_placeHolder32x32/spr_placeHolder32x32.yy",},"order":2,},
+    {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"order":3,},
+    {"id":{"name":"obj_gameManager","path":"objects/obj_gameManager/obj_gameManager.yy",},"order":0,},
+    {"id":{"name":"obj_UI","path":"objects/obj_UI/obj_UI.yy",},"order":2,},
+    {"id":{"name":"spr_placeHolder128x128","path":"sprites/spr_placeHolder128x128/spr_placeHolder128x128.yy",},"order":1,},
+    {"id":{"name":"spr_placeHolder64x64","path":"sprites/spr_placeHolder64x64/spr_placeHolder64x64.yy",},"order":0,},
+    {"id":{"name":"obj_musicManager","path":"objects/obj_musicManager/obj_musicManager.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
