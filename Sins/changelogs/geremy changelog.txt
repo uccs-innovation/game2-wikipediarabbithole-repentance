@@ -1,0 +1,22 @@
+Add:
+Rooms:
+rm_Fight
+
+Sprites:
+Group - Backgrounds
+Group - Player
+spr_alley
+spr_player_side_left
+spr_player_side_right
+spr_opponent
+
+Objects:
+Group - Fight
+obj_player_side
+obj_opponent
+
+Change:
+
+
+Delete:
+
