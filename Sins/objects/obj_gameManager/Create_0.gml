@@ -1,44 +1,27 @@
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 653EAAC6
+/// @DnDInput : 10
 /// @DnDArgument : "var" "playerSloth"
+/// @DnDArgument : "var_1" "playerEnvy"
+/// @DnDArgument : "var_2" "playerGluttony"
+/// @DnDArgument : "var_3" "playerPride"
+/// @DnDArgument : "var_4" "playerWrath"
+/// @DnDArgument : "var_5" "playerLust"
+/// @DnDArgument : "var_6" "playerGreed"
+/// @DnDArgument : "var_7" "playerLuck"
+/// @DnDArgument : "var_8" "godsPleased"
+/// @DnDArgument : "var_9" "godsDispleased"
 global.playerSloth = 0;
-
-/// @DnDAction : YoYo Games.Common.Set_Global
-/// @DnDVersion : 1
-/// @DnDHash : 212C7F27
-/// @DnDArgument : "var" "playerEnvy"
 global.playerEnvy = 0;
-
-/// @DnDAction : YoYo Games.Common.Set_Global
-/// @DnDVersion : 1
-/// @DnDHash : 5D92FCA7
-/// @DnDArgument : "var" "playerGluttony"
 global.playerGluttony = 0;
-
-/// @DnDAction : YoYo Games.Common.Set_Global
-/// @DnDVersion : 1
-/// @DnDHash : 0B4B9AF0
-/// @DnDArgument : "var" "playerPride"
 global.playerPride = 0;
-
-/// @DnDAction : YoYo Games.Common.Set_Global
-/// @DnDVersion : 1
-/// @DnDHash : 12CA26A2
-/// @DnDArgument : "var" "playerWrath"
 global.playerWrath = 0;
-
-/// @DnDAction : YoYo Games.Common.Set_Global
-/// @DnDVersion : 1
-/// @DnDHash : 5A98E2AC
-/// @DnDArgument : "var" "playerLust"
 global.playerLust = 0;
-
-/// @DnDAction : YoYo Games.Common.Set_Global
-/// @DnDVersion : 1
-/// @DnDHash : 6C521882
-/// @DnDArgument : "var" "playerGreed"
 global.playerGreed = 0;
+global.playerLuck = 0;
+global.godsPleased = 0;
+global.godsDispleased = 0;
 
 /// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1

@@ -5,7 +5,8 @@
   "resources": [
     {"id":{"name":"spr_player_side_right","path":"sprites/spr_player_side_right/spr_player_side_right.yy",},"order":1,},
     {"id":{"name":"spr_left_arrow","path":"sprites/spr_left_arrow/spr_left_arrow.yy",},"order":1,},
-    {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},"order":0,},
+    {"id":{"name":"scr_calculateLuck","path":"scripts/scr_calculateLuck/scr_calculateLuck.yy",},"order":1,},
+    {"id":{"name":"scr_calculateSins","path":"scripts/scr_calculateSins/scr_calculateSins.yy",},"order":0,},
     {"id":{"name":"obj_dumpsterManager","path":"objects/obj_dumpsterManager/obj_dumpsterManager.yy",},"order":2,},
     {"id":{"name":"temp_burger","path":"sprites/temp_burger/temp_burger.yy",},"order":1,},
     {"id":{"name":"rm_Title","path":"rooms/rm_Title/rm_Title.yy",},"order":3,},
@@ -52,9 +53,9 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"rm_Dumpster","path":"rooms/rm_Dumpster/rm_Dumpster.yy",},},
     {"roomId":{"name":"rm_Fight","path":"rooms/rm_Fight/rm_Fight.yy",},},
     {"roomId":{"name":"rm_Title","path":"rooms/rm_Title/rm_Title.yy",},},
+    {"roomId":{"name":"rm_Dumpster","path":"rooms/rm_Dumpster/rm_Dumpster.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "Folders": [
