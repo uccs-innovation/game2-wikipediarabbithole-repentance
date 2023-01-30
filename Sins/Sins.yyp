@@ -8,6 +8,7 @@
     {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},"order":0,},
     {"id":{"name":"obj_dumpsterManager","path":"objects/obj_dumpsterManager/obj_dumpsterManager.yy",},"order":2,},
     {"id":{"name":"temp_burger","path":"sprites/temp_burger/temp_burger.yy",},"order":1,},
+    {"id":{"name":"rm_Title","path":"rooms/rm_Title/rm_Title.yy",},"order":3,},
     {"id":{"name":"rm_Fight","path":"rooms/rm_Fight/rm_Fight.yy",},"order":2,},
     {"id":{"name":"spr_trash1","path":"sprites/spr_trash1/spr_trash1.yy",},"order":0,},
     {"id":{"name":"spr_placeHolder16x16","path":"sprites/spr_placeHolder16x16/spr_placeHolder16x16.yy",},"order":3,},
@@ -51,8 +52,9 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"rm_Fight","path":"rooms/rm_Fight/rm_Fight.yy",},},
     {"roomId":{"name":"rm_Dumpster","path":"rooms/rm_Dumpster/rm_Dumpster.yy",},},
+    {"roomId":{"name":"rm_Fight","path":"rooms/rm_Fight/rm_Fight.yy",},},
+    {"roomId":{"name":"rm_Title","path":"rooms/rm_Title/rm_Title.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "Folders": [
