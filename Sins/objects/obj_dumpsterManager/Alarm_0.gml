@@ -8,15 +8,15 @@ food.depth = trash.depth + 1;
 global.foodValue = clamp(3 + global.playerLuck, 0, 4);
 
 if (global.playerLuck == -1) {
-	var timer = floor(random_range(7, 10));
+	var timer = floor(random_range(6, 10));
 }
 
 else if (global.playerLuck == 0) {
-	var timer = floor(random_range(5, 8));
+	var timer = floor(random_range(4, 8));
 }
 
 else if (global.playerLuck == 1) {
-	var timer = floor(random_range(2, 5));
+	var timer = floor(random_range(1, 4));
 }
 
 
