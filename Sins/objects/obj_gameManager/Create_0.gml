@@ -1,8 +1,11 @@
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 653EAAC6
-/// @DnDInput : 11
-/// @DnDArgument : "value_10" "1"
+/// @DnDInput : 12
+/// @DnDArgument : "value_8" "1"
+/// @DnDArgument : "value_9" "1"
+/// @DnDArgument : "value_10" "10"
+/// @DnDArgument : "value_11" "50"
 /// @DnDArgument : "var" "playerSloth"
 /// @DnDArgument : "var_1" "playerEnvy"
 /// @DnDArgument : "var_2" "playerGluttony"
@@ -11,9 +14,10 @@
 /// @DnDArgument : "var_5" "playerLust"
 /// @DnDArgument : "var_6" "playerGreed"
 /// @DnDArgument : "var_7" "playerLuck"
-/// @DnDArgument : "var_8" "godsPleased"
-/// @DnDArgument : "var_9" "godsDispleased"
-/// @DnDArgument : "var_10" "foodValue"
+/// @DnDArgument : "var_8" "foodValue"
+/// @DnDArgument : "var_9" "day"
+/// @DnDArgument : "var_10" "hungerLevel"
+/// @DnDArgument : "var_11" "levelTime"
 global.playerSloth = 0;
 global.playerEnvy = 0;
 global.playerGluttony = 0;
@@ -22,34 +26,7 @@ global.playerWrath = 0;
 global.playerLust = 0;
 global.playerGreed = 0;
 global.playerLuck = 0;
-global.godsPleased = 0;
-global.godsDispleased = 0;
 global.foodValue = 1;
-
-/// @DnDAction : YoYo Games.Common.If_Expression
-/// @DnDVersion : 1
-/// @DnDHash : 75F4FD33
-/// @DnDArgument : "expr" "room == rm_Dumpster"
-if(room == rm_Dumpster)
-{
-	/// @DnDAction : YoYo Games.Common.Set_Global
-	/// @DnDVersion : 1
-	/// @DnDHash : 6FE43B4F
-	/// @DnDParent : 75F4FD33
-	/// @DnDArgument : "value" "3000"
-	/// @DnDArgument : "var" "levelTime"
-	global.levelTime = 3000;
-}
-
-/// @DnDAction : YoYo Games.Common.Else
-/// @DnDVersion : 1
-/// @DnDHash : 5508C5EC
-else
-{
-	/// @DnDAction : YoYo Games.Common.Set_Global
-	/// @DnDVersion : 1
-	/// @DnDHash : 7A493C6A
-	/// @DnDParent : 5508C5EC
-	/// @DnDArgument : "var" "levelTime"
-	global.levelTime = 0;
-}
+global.day = 1;
+global.hungerLevel = 10;
+global.levelTime = 50;
