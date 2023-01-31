@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_food",
   "spriteId": {
-    "name": "spr_food1",
-    "path": "sprites/spr_food1/spr_food1.yy",
+    "name": "spr_smallerBurger",
+    "path": "sprites/spr_smallerBurger/spr_smallerBurger.yy",
   },
   "solid": false,
   "visible": true,
@@ -25,7 +25,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":6,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":7,"eventType":6,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":2,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
