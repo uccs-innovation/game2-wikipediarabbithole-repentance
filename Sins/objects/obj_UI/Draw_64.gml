@@ -43,7 +43,7 @@ if(global.levelTime <= 0)
 	if (button == noone)
 	{
 		button = instance_create_layer(160, 520, "Instances_1", obj_buttonContinue);
-		global.hungerLevel -= 14
+		global.hungerLevel -= 4
 		scr_calculateLuck()
 		show_debug_message(global.playerLuck)
 	}
