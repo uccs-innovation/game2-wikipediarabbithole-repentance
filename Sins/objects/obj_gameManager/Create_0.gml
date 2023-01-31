@@ -33,9 +33,9 @@ if(room == rm_Dumpster)
 	/// @DnDVersion : 1
 	/// @DnDHash : 6FE43B4F
 	/// @DnDParent : 75F4FD33
-	/// @DnDArgument : "value" "120"
+	/// @DnDArgument : "value" "3000"
 	/// @DnDArgument : "var" "levelTime"
-	global.levelTime = 120;
+	global.levelTime = 3000;
 }
 
 /// @DnDAction : YoYo Games.Common.Else
