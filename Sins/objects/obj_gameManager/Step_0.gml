@@ -1,7 +1,7 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 412B0B09
-/// @DnDArgument : "code" "/// @description Set Winner (-1=pause, 0=none, 1=player, 2=bot)$(13_10)if (fight_winner == -1 or fight_winner == 0) {$(13_10)	if (self_value <= 0) {$(13_10)		fight_winner = 2;$(13_10)		scr_calculateSins(0, love_value, hate_value, global.foodValue);$(13_10)	$(13_10)		alarm_set(0, 200);$(13_10)	}$(13_10)	else if (self_value >= 1) {$(13_10)		fight_winner = 1;$(13_10)		global.hungerLevel += global.foodValue + 3$(13_10)		scr_calculateSins(1, love_value, hate_value, global.foodValue);$(13_10)	$(13_10)		alarm_set(0, 200);$(13_10)	}$(13_10)}$(13_10)$(13_10)if (global.hungerLevel <= 0)$(13_10)	room_goto(rm_Lose)"
+/// @DnDArgument : "code" "/// @description Set Winner (-1=pause, 0=none, 1=player, 2=bot)$(13_10)if (fight_winner == -1 or fight_winner == 0) {$(13_10)	if (self_value <= 0) {$(13_10)		fight_winner = 2;$(13_10)		scr_calculateSins(0, love_value, hate_value, global.foodValue);$(13_10)	$(13_10)		alarm_set(0, 200);$(13_10)	}$(13_10)	else if (self_value >= 1) {$(13_10)		fight_winner = 1;$(13_10)		global.hungerLevel += global.foodValue;$(13_10)		$(13_10)		show_debug_message("Food_value: " + string(global.foodValue));$(13_10)		scr_calculateSins(1, love_value, hate_value, global.foodValue);$(13_10)	$(13_10)		alarm_set(0, 200);$(13_10)	}$(13_10)}$(13_10)$(13_10)if (global.hungerLevel <= 0 && !global.lost)$(13_10)	{$(13_10)		room_goto(rm_Lose)$(13_10)		global.lost = true$(13_10)	}"
 /// @description Set Winner (-1=pause, 0=none, 1=player, 2=bot)
 if (fight_winner == -1 or fight_winner == 0) {
 	if (self_value <= 0) {
@@ -12,15 +12,20 @@ if (fight_winner == -1 or fight_winner == 0) {
 	}
 	else if (self_value >= 1) {
 		fight_winner = 1;
-		global.hungerLevel += global.foodValue + 3
+		global.hungerLevel += global.foodValue;
+		
+		show_debug_message("Food_value: " + string(global.foodValue));
 		scr_calculateSins(1, love_value, hate_value, global.foodValue);
 	
 		alarm_set(0, 200);
 	}
 }
 
-if (global.hungerLevel <= 0)
-	room_goto(rm_Lose)
+if (global.hungerLevel <= 0 && !global.lost)
+	{
+		room_goto(rm_Lose)
+		global.lost = true
+	}
 
 /// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1
@@ -32,8 +37,8 @@ if(global.levelTime > 0 && room == rm_Dumpster)
 	/// @DnDVersion : 1
 	/// @DnDHash : 567E5200
 	/// @DnDParent : 0AB1A13A
-	/// @DnDArgument : "value" "-0.5 / room_speed"
+	/// @DnDArgument : "value" "-1 / room_speed"
 	/// @DnDArgument : "value_relative" "1"
 	/// @DnDArgument : "var" "global.levelTime"
-	global.levelTime += -0.5 / room_speed;
+	global.levelTime += -1 / room_speed;
 }

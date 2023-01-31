@@ -4,3 +4,9 @@
 /// @DnDArgument : "room" "rm_Title"
 /// @DnDSaveInfo : "room" "rm_Title"
 room_goto(rm_Title);
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 3932E297
+/// @DnDArgument : "var" "lost"
+global.lost = 0;

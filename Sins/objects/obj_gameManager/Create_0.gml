@@ -1,7 +1,7 @@
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 653EAAC6
-/// @DnDInput : 12
+/// @DnDInput : 13
 /// @DnDArgument : "value_8" "1"
 /// @DnDArgument : "value_9" "1"
 /// @DnDArgument : "value_10" "10"
@@ -18,6 +18,7 @@
 /// @DnDArgument : "var_9" "day"
 /// @DnDArgument : "var_10" "hungerLevel"
 /// @DnDArgument : "var_11" "levelTime"
+/// @DnDArgument : "var_12" "lost"
 global.playerSloth = 0;
 global.playerEnvy = 0;
 global.playerGluttony = 0;
@@ -30,3 +31,4 @@ global.foodValue = 1;
 global.day = 1;
 global.hungerLevel = 10;
 global.levelTime = 20;
+global.lost = 0;
