@@ -2,13 +2,6 @@
 /// @DnDVersion : 1
 /// @DnDHash : 653EAAC6
 /// @DnDInput : 10
-/// @DnDArgument : "value" "15"
-/// @DnDArgument : "value_1" "25"
-/// @DnDArgument : "value_2" "35"
-/// @DnDArgument : "value_3" "45"
-/// @DnDArgument : "value_4" "55"
-/// @DnDArgument : "value_5" "65"
-/// @DnDArgument : "value_6" "75"
 /// @DnDArgument : "var" "playerSloth"
 /// @DnDArgument : "var_1" "playerEnvy"
 /// @DnDArgument : "var_2" "playerGluttony"
@@ -19,13 +12,13 @@
 /// @DnDArgument : "var_7" "playerLuck"
 /// @DnDArgument : "var_8" "godsPleased"
 /// @DnDArgument : "var_9" "godsDispleased"
-global.playerSloth = 15;
-global.playerEnvy = 25;
-global.playerGluttony = 35;
-global.playerPride = 45;
-global.playerWrath = 55;
-global.playerLust = 65;
-global.playerGreed = 75;
+global.playerSloth = 0;
+global.playerEnvy = 0;
+global.playerGluttony = 0;
+global.playerPride = 0;
+global.playerWrath = 0;
+global.playerLust = 0;
+global.playerGreed = 0;
 global.playerLuck = 0;
 global.godsPleased = 0;
 global.godsDispleased = 0;
@@ -40,9 +33,9 @@ if(room == rm_Dumpster)
 	/// @DnDVersion : 1
 	/// @DnDHash : 6FE43B4F
 	/// @DnDParent : 75F4FD33
-	/// @DnDArgument : "value" "120"
+	/// @DnDArgument : "value" "3000"
 	/// @DnDArgument : "var" "levelTime"
-	global.levelTime = 120;
+	global.levelTime = 3000;
 }
 
 /// @DnDAction : YoYo Games.Common.Else

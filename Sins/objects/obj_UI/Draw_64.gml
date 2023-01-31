@@ -43,9 +43,9 @@ if(global.levelTime <= 0)
 	/// @DnDArgument : "x1" "64"
 	/// @DnDArgument : "y1" "64"
 	/// @DnDArgument : "x2" "1300"
-	/// @DnDArgument : "y2" "706"
+	/// @DnDArgument : "y2" "530"
 	/// @DnDArgument : "fill" "1"
-	draw_rectangle(64, 64, 1300, 706, 0);
+	draw_rectangle(64, 64, 1300, 530, 0);
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
@@ -183,4 +183,14 @@ if(global.levelTime <= 0)
 	/// @DnDArgument : "mincol" "$FF00E9FF"
 	/// @DnDArgument : "maxcol" "$FF00FFF2"
 	draw_healthbar(600, 460, 1240, 500, global.playerGreed, $877F7F7F & $FFFFFF, $FF00E9FF & $FFFFFF, $FF00FFF2 & $FFFFFF, 0, (($877F7F7F>>24) != 0), (($FF000000>>24) != 0));
+
+	/// @DnDAction : YoYo Games.Instances.Create_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 2A450C6E
+	/// @DnDParent : 2418DD7D
+	/// @DnDArgument : "xpos" "160"
+	/// @DnDArgument : "ypos" "520"
+	/// @DnDArgument : "objectid" "obj_buttonContinue"
+	/// @DnDSaveInfo : "objectid" "obj_buttonContinue"
+	instance_create_layer(160, 520, "Instances", obj_buttonContinue);
 }
