@@ -56,6 +56,7 @@
     {"id":{"name":"rm_Dumpster","path":"rooms/rm_Dumpster/rm_Dumpster.yy",},"order":1,},
     {"id":{"name":"spr_alley","path":"sprites/spr_alley/spr_alley.yy",},"order":0,},
     {"id":{"name":"spr_buttonReturnToTitle","path":"sprites/spr_buttonReturnToTitle/spr_buttonReturnToTitle.yy",},"order":11,},
+    {"id":{"name":"spr_player_dead","path":"sprites/spr_player_dead/spr_player_dead.yy",},"order":3,},
     {"id":{"name":"spr_right_arrow","path":"sprites/spr_right_arrow/spr_right_arrow.yy",},"order":4,},
     {"id":{"name":"spr_right_arrow_mask","path":"sprites/spr_right_arrow_mask/spr_right_arrow_mask.yy",},"order":5,},
     {"id":{"name":"spr_title","path":"sprites/spr_title/spr_title.yy",},"order":13,},
@@ -68,6 +69,7 @@
     {"id":{"name":"obj_player_side","path":"objects/obj_player_side/obj_player_side.yy",},"order":0,},
     {"id":{"name":"spr_trash9","path":"sprites/spr_trash9/spr_trash9.yy",},"order":9,},
     {"id":{"name":"spr_dumpsterFront","path":"sprites/spr_dumpsterFront/spr_dumpsterFront.yy",},"order":18,},
+    {"id":{"name":"obj_gameOver","path":"objects/obj_gameOver/obj_gameOver.yy",},"order":14,},
     {"id":{"name":"spr_buttonInstructions","path":"sprites/spr_buttonInstructions/spr_buttonInstructions.yy",},"order":6,},
     {"id":{"name":"spr_opponent","path":"sprites/spr_opponent/spr_opponent.yy",},"order":2,},
     {"id":{"name":"obj_finish_gif","path":"objects/obj_finish_gif/obj_finish_gif.yy",},"order":4,},
@@ -100,11 +102,11 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_Title","path":"rooms/rm_Title/rm_Title.yy",},},
+    {"roomId":{"name":"rm_Lose","path":"rooms/rm_Lose/rm_Lose.yy",},},
     {"roomId":{"name":"rm_day","path":"rooms/rm_day/rm_day.yy",},},
     {"roomId":{"name":"rm_Dumpster","path":"rooms/rm_Dumpster/rm_Dumpster.yy",},},
     {"roomId":{"name":"rm_Fight","path":"rooms/rm_Fight/rm_Fight.yy",},},
     {"roomId":{"name":"rm_Win","path":"rooms/rm_Win/rm_Win.yy",},},
-    {"roomId":{"name":"rm_Lose","path":"rooms/rm_Lose/rm_Lose.yy",},},
     {"roomId":{"name":"rm_Instructions","path":"rooms/rm_Instructions/rm_Instructions.yy",},},
   ],
   "Folders": [

@@ -5,7 +5,7 @@
 /// @DnDArgument : "value_8" "1"
 /// @DnDArgument : "value_9" "1"
 /// @DnDArgument : "value_10" "10"
-/// @DnDArgument : "value_11" "10"
+/// @DnDArgument : "value_11" "20"
 /// @DnDArgument : "var" "playerSloth"
 /// @DnDArgument : "var_1" "playerEnvy"
 /// @DnDArgument : "var_2" "playerGluttony"
@@ -29,4 +29,4 @@ global.playerLuck = 0;
 global.foodValue = 1;
 global.day = 1;
 global.hungerLevel = 10;
-global.levelTime = 10;
+global.levelTime = 20;

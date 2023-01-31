@@ -7,3 +7,4 @@ draw_text_transformed((room_width / 2)  - 150, 350, string("Pleased with: ") + s
 draw_text_transformed((room_width / 2) - 200, 400, string("Displeased with: ") + string(scr_getSinName(global.godsDispleased)), 2, 2, 0);
 
 draw_text_transformed((room_width / 2) - 140, 600, string("Hunger Level: ") + string(global.hungerLevel), 2, 2, 0);
+draw_text_transformed((room_width / 2) - 140, 700, string("Luck: ") + string(global.playerLuck), 2, 2, 0);

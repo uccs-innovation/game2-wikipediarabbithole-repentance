@@ -20,9 +20,9 @@ alarm_set(0, room_speed);
 /// @DnDArgument : "var" "trash"
 /// @DnDArgument : "var_temp" "1"
 /// @DnDArgument : "type" "1"
-/// @DnDArgument : "min" "10"
-/// @DnDArgument : "max" "24"
-var trash = floor(random_range(10, 24 + 1));
+/// @DnDArgument : "min" "40"
+/// @DnDArgument : "max" "50"
+var trash = floor(random_range(40, 50 + 1));
 
 /// @DnDAction : YoYo Games.Loops.For_Loop
 /// @DnDVersion : 1
@@ -38,8 +38,8 @@ for(var i = 0; i < trash; i += 1) {
 	/// @DnDArgument : "var_temp" "1"
 	/// @DnDArgument : "type" "1"
 	/// @DnDArgument : "min" "128"
-	/// @DnDArgument : "max" "room_width - sprite_get_width(spr_trash1) - 108"
-	var random_x = floor(random_range(128, room_width - sprite_get_width(spr_trash1) - 108 + 1));
+	/// @DnDArgument : "max" "room_width - 108"
+	var random_x = floor(random_range(128, room_width - 108 + 1));
 
 	/// @DnDAction : YoYo Games.Random.Get_Random_Number
 	/// @DnDVersion : 1
@@ -49,8 +49,8 @@ for(var i = 0; i < trash; i += 1) {
 	/// @DnDArgument : "var_temp" "1"
 	/// @DnDArgument : "type" "1"
 	/// @DnDArgument : "min" "96"
-	/// @DnDArgument : "max" "room_height - sprite_get_height(spr_trash1) - 110"
-	var random_y = floor(random_range(96, room_height - sprite_get_height(spr_trash1) - 110 + 1));
+	/// @DnDArgument : "max" "room_height - 110"
+	var random_y = floor(random_range(96, room_height - 110 + 1));
 
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
