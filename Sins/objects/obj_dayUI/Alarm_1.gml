@@ -8,4 +8,4 @@ while (global.godsDispleased == global.godsPleased) {
 	global.godsDispleased = irandom_range(0, 6);
 }
 
-alarm_set(0, room_speed * 5)
+alarm_set(0, room_speed * 8)
