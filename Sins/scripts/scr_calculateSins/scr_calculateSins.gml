@@ -2,7 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_calculateSins(selfValue, loveValue, hateValue, foodValue){
 
-	
+	show_debug_message("self:" + string(selfValue) + " love:" + string(loveValue) + " hate:" + string(hateValue) + " food:" + string(foodValue))
 
 }
 

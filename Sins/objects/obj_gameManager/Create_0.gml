@@ -1,7 +1,8 @@
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 653EAAC6
-/// @DnDInput : 10
+/// @DnDInput : 11
+/// @DnDArgument : "value_10" "1"
 /// @DnDArgument : "var" "playerSloth"
 /// @DnDArgument : "var_1" "playerEnvy"
 /// @DnDArgument : "var_2" "playerGluttony"
@@ -12,6 +13,7 @@
 /// @DnDArgument : "var_7" "playerLuck"
 /// @DnDArgument : "var_8" "godsPleased"
 /// @DnDArgument : "var_9" "godsDispleased"
+/// @DnDArgument : "var_10" "foodValue"
 global.playerSloth = 0;
 global.playerEnvy = 0;
 global.playerGluttony = 0;
@@ -22,6 +24,7 @@ global.playerGreed = 0;
 global.playerLuck = 0;
 global.godsPleased = 0;
 global.godsDispleased = 0;
+global.foodValue = 1;
 
 /// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1

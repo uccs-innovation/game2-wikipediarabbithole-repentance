@@ -98,8 +98,8 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_Title","path":"rooms/rm_Title/rm_Title.yy",},},
-    {"roomId":{"name":"rm_Dumpster","path":"rooms/rm_Dumpster/rm_Dumpster.yy",},},
     {"roomId":{"name":"rm_Fight","path":"rooms/rm_Fight/rm_Fight.yy",},},
+    {"roomId":{"name":"rm_Dumpster","path":"rooms/rm_Dumpster/rm_Dumpster.yy",},},
     {"roomId":{"name":"rm_Win","path":"rooms/rm_Win/rm_Win.yy",},},
     {"roomId":{"name":"rm_Lose","path":"rooms/rm_Lose/rm_Lose.yy",},},
     {"roomId":{"name":"rm_Instructions","path":"rooms/rm_Instructions/rm_Instructions.yy",},},
