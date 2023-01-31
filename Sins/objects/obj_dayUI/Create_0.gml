@@ -1,8 +1,6 @@
-global.godsPleased = irandom_range(0, 6);
-global.godsDispleased = irandom_range(0, 6);
-
-while (global.godsDispleased == global.godsPleased) {
-	global.godsDispleased = irandom_range(0, 6);
-}
-
-alarm_set(0, room_speed * 5)
+/// @DnDAction : YoYo Games.Instances.Set_Alarm
+/// @DnDVersion : 1
+/// @DnDHash : 0B7E71C2
+/// @DnDArgument : "steps" "1"
+/// @DnDArgument : "alarm" "1"
+alarm_set(1, 1);

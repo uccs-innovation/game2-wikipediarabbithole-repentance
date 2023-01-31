@@ -2,8 +2,13 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_calculateSins(selfValue, loveValue, hateValue, foodValue){
 
-	show_debug_message("self:" + string(selfValue) + " love:" + string(loveValue) + " hate:" + string(hateValue) + " food:" + string(foodValue))
-
+	global.playerEnvy = loveValue * hateValue * (1-selfValue)
+	global.playerGluttony = selfValue * hateValue * (1-loveValue)
+	global.playerGreed = selfValue * (1-loveValue) * (1-hateValue)
+	global.playerLust = loveValue * (1-hateValue) * (1-selfValue)
+	global.playerPride = selfValue * loveValue * (1-hateValue)
+	global.playerSloth = (1-loveValue) * (1-selfValue) * (1-hateValue)
+	global.playerWrath = hateValue * (1-loveValue) * (1-selfValue)
 }
 
 function scr_resetSins()
