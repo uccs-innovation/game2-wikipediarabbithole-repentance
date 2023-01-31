@@ -1,7 +1,9 @@
-/// @DnDAction : YoYo Games.Instances.Set_Sprite
-/// @DnDVersion : 1
-/// @DnDHash : 484E19D9
-/// @DnDArgument : "spriteind" "spr_buttonContinue"
-/// @DnDSaveInfo : "spriteind" "spr_buttonContinue"
 sprite_index = spr_buttonContinue;
 image_index = 0;
+
+global.day += 1;
+global.levelTime = 20
+
+scr_calculateLuck();
+
+room_goto(rm_day);

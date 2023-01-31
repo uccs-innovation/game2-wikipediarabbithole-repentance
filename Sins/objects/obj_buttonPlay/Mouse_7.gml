@@ -1,3 +1,8 @@
+/// @DnDAction : YoYo Games.Random.Randomize
+/// @DnDVersion : 1
+/// @DnDHash : 4580FA41
+randomize();
+
 /// @DnDAction : YoYo Games.Instances.Set_Sprite
 /// @DnDVersion : 1
 /// @DnDHash : 484E19D9
