@@ -11,3 +11,8 @@ image_index = 0;
 /// @DnDHash : 6179FAC7
 /// @DnDArgument : "steps" "4"
 alarm_set(0, 4);
+
+/// @DnDAction : YoYo Games.Game.Restart_Game
+/// @DnDVersion : 1
+/// @DnDHash : 32F5FD01
+game_restart();
