@@ -63,11 +63,11 @@ if (room == rm_Instructions && (currentinstruction == 0))
 	draw_text_transformed(20,50, ("Sins is a game where you are a raccoon fighting to survive each day... "),2,2,0);
 	if (showElementOne)
 	{
-		draw_text_transformed(20,100,("But, you are not the only one fighting to survive"),2,2,0);
+		draw_text_transformed(20,100,("But you are not the only one fighting to survive."),2,2,0);
 	}
 	if (showElementTwo)
 	{
-		draw_text_transformed(20,150,("Other raccoons will try to steal whatever food you manage to find"),2,2,0);
+		draw_text_transformed(20,150,("Other raccoons will try to steal whatever food you manage to find."),2,2,0);
 	}
 	if (showElementThree)
 	{
@@ -75,11 +75,11 @@ if (room == rm_Instructions && (currentinstruction == 0))
 	}
 	if (showElementFour)
 	{
-		draw_text_transformed(20,350,("There are 7 gods of Sin who will bless you with luck if you please them"),2,2,0);
+		draw_text_transformed(20,350,("There are 7 gods of Sin who will bless you with luck if you please them."),2,2,0);
 	}
 	if (showElementFive)
 	{
-		draw_text_transformed(20,400,("With more luck, the easier time you will have to find food."),2,2,0);
+		draw_text_transformed(20,400,("With more luck, the easier it is to find food."),2,2,0);
 	}
 	if (showElementFive)
 	{
@@ -109,11 +109,11 @@ if (room == rm_Instructions && (currentinstruction == 1))
 	}
 	if (showElementFour)
 	{
-		draw_text_transformed(20,300,("You may need to forfeit food to win some gods favor"),2,2,0);
+		draw_text_transformed(20,300,("You may need to forfeit food to win some god's favor."),2,2,0);
 	}
 	if (showElementFive)
 	{
-		draw_text_transformed(20,400,("You can always choose not to of course and keep what you find to yourself..."),2,2,0);
+		draw_text_transformed(20,400,("Though, you can always choose to keep what you find to yourself..."),2,2,0);
 	}
 	if (showElementFive)
 	{
@@ -128,7 +128,7 @@ if (room == rm_Instructions && (currentinstruction == 2))
 	draw_rectangle(0, 0, room_width, room_height, 0);
 	
 	draw_set_color(c_white);
-	draw_text_transformed(20,50, ("You also must select 'how' you will fight.  With love or with hate."),2,2,0);
+	draw_text_transformed(20,50, ("You also must select 'how' you will fight: with love or with hate."),2,2,0);
 	if (showElementOne)
 	{
 		draw_text_transformed(20,100,("Search for food by dragging trash around with your mouse."),2,2,0);
@@ -139,7 +139,7 @@ if (room == rm_Instructions && (currentinstruction == 2))
 	}
 	if (showElementThree)
 	{
-		draw_text_transformed(20,200,("Fight with arrow keys."),2,2,0);
+		draw_text_transformed(20,200,("Fight for the food with arrow keys. (Left Arrow = pull)"),2,2,0);
 	}
 	if (showElementFour)
 	{
