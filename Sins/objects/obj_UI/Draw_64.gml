@@ -100,7 +100,7 @@ if (room == rm_Instructions && (currentinstruction == 0))
 	}
 	if (showElementFive)
 	{
-		draw_text_transformed(20,400,("With more luck, the easier it is to find food."),2,2,0);
+		draw_text_transformed(20,400,("With more luck, the easier it is to find food and it will heal you more."),2,2,0);
 	}
 	if (showElementFive)
 	{
@@ -130,7 +130,7 @@ if (room == rm_Instructions && (currentinstruction == 1))
 	}
 	if (showElementFour)
 	{
-		draw_text_transformed(20,300,("You may need to forfeit food to win some god's favor."),2,2,0);
+		draw_text_transformed(20,300,("You may need to forfeit food to win the god's favor."),2,2,0);
 	}
 	if (showElementFive)
 	{
@@ -156,7 +156,7 @@ if (room == rm_Instructions && (currentinstruction == 2))
 	}
 	if (showElementTwo)
 	{
-		draw_text_transformed(20,150,("Click on any food you find."),2,2,0);
+		draw_text_transformed(20,150,("Click on any food you find. Drag the sliders to adjust love and hate."),2,2,0);
 	}
 	if (showElementThree)
 	{
