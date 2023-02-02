@@ -11,6 +11,15 @@ function scr_calculateSins(selfValue, loveValue, hateValue, foodValue){
 	global.playerWrath = hateValue * (1-loveValue) * (1-selfValue)
 }
 
+function scr_ReturnProminentSin() {
+	for(var i=0; i<7; i++) {
+		if (abs(scr_getSinValue(i)) > 0) {
+			return scr_getSinName(i);
+		}
+	}
+	return "nothing";
+}
+
 function scr_resetSins()
 {
 	global.playerEnvy = 0

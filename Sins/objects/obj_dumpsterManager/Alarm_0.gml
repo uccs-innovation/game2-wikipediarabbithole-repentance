@@ -7,16 +7,18 @@ food = instance_create_layer(trash.x, trash.y, "Instances", obj_food);
 food.depth = trash.depth + 1;
 global.foodValue = clamp(3 + global.playerLuck, 0, 4);
 
+var timer = 5;
+
 if (global.playerLuck == -1) {
-	var timer = floor(random_range(6, 10));
+	timer = floor(random_range(6, 10));
 }
 
 else if (global.playerLuck == 0) {
-	var timer = floor(random_range(4, 8));
+	timer = floor(random_range(4, 8));
 }
 
 else if (global.playerLuck == 1) {
-	var timer = floor(random_range(1, 4));
+	timer = floor(random_range(1, 4));
 }
 
 

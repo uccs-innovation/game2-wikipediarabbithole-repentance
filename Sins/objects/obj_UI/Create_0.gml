@@ -6,6 +6,5 @@ showElementFour = false;
 showElementFive = false;
 showElementSix = false;
 timerRunning = false;
-maxHealth = 10;
 instructionSets = 2;
 currentinstruction = 0;

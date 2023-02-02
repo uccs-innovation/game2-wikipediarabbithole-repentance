@@ -19,15 +19,36 @@ if (room != rm_Instructions)
 		draw_text_transformed((room_width/2)-170, 200, string("End of day: ") + string(global.day),2,2,0);
 		if (showElementOne)
 		{
-			draw_text_transformed((room_width/2)-170, 240, string("Health change: ") + string(global.hungerLevel - maxHealth),2,2,0);
+			if (sign(global.hungerLevel + 4 - obj_gameManager.starting_health) >= 0) {
+				draw_text_transformed((room_width/2)-170, 240, string("Food eaten: +") + string(global.hungerLevel + 4 - obj_gameManager.starting_health),2,2,0);
+			}
+			else {
+				draw_text_transformed((room_width/2)-170, 240, string("Food eaten: ") + string(global.hungerLevel + 4 - obj_gameManager.starting_health),2,2,0);
+			}
 		}
 		if (showElementTwo)
 		{
-			draw_text_transformed((room_width/2)-170, 280, string("Luck change: ") + string(global.playerLuck),2,2,0);
+			draw_text_transformed((room_width/2)-170, 280, string("New Day health decrease: -4"),2,2,0);
 		}
 		if (showElementThree)
 		{
-			draw_text_transformed((room_width/2)-170, 400, string("Press Space to Continue... "),2,2,0);
+			draw_text_transformed((room_width/2)-170, 340, string("You showed ") + scr_ReturnProminentSin() + " today.",2,2,0);
+			
+		}
+		if (showElementFour) {
+			if (global.playerLuck > 0) {
+				draw_text_transformed((room_width/2)-170, 380, "Congrats! Your next day will be lucky.",2,2,0);
+			}
+			else if (global.playerLuck < 0) {
+				draw_text_transformed((room_width/2)-170, 380, "Too bad... Your next day will be unlucky.",2,2,0);
+			}
+			else {
+				draw_text_transformed((room_width/2)-170, 380, "Your next day will be normal.",2,2,0);
+			}
+		}
+		if (showElementFour) {
+			show_debug_message("showed");
+			draw_text_transformed((room_width/2)-170, 440, string("Press Space to Continue... "),2,2,0);
 		}
 		//This is to show how you performed for the day
 		//if (showElementThree)

@@ -42,6 +42,7 @@
     {"id":{"name":"obj_gameManager","path":"objects/obj_gameManager/obj_gameManager.yy",},"order":0,},
     {"id":{"name":"spr_slider_button","path":"sprites/spr_slider_button/spr_slider_button.yy",},"order":20,},
     {"id":{"name":"obj_opponent","path":"objects/obj_opponent/obj_opponent.yy",},"order":1,},
+    {"id":{"name":"spr_key","path":"sprites/spr_key/spr_key.yy",},"order":21,},
     {"id":{"name":"obj_hate_slider","path":"objects/obj_hate_slider/obj_hate_slider.yy",},"order":5,},
     {"id":{"name":"spr_trash15","path":"sprites/spr_trash15/spr_trash15.yy",},"order":15,},
     {"id":{"name":"spr_luck","path":"sprites/spr_luck/spr_luck.yy",},"order":0,},
