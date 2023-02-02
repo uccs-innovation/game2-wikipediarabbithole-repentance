@@ -18,6 +18,8 @@
     {"id":{"name":"obj_buttonInstructions","path":"objects/obj_buttonInstructions/obj_buttonInstructions.yy",},"order":2,},
     {"id":{"name":"temp_burger","path":"sprites/temp_burger/temp_burger.yy",},"order":1,},
     {"id":{"name":"rm_Title","path":"rooms/rm_Title/rm_Title.yy",},"order":3,},
+    {"id":{"name":"rm_Win","path":"rooms/rm_Win/rm_Win.yy",},"order":7,},
+    {"id":{"name":"obj_winner","path":"objects/obj_winner/obj_winner.yy",},"order":17,},
     {"id":{"name":"spr_trash2","path":"sprites/spr_trash2/spr_trash2.yy",},"order":2,},
     {"id":{"name":"spr_finish","path":"sprites/spr_finish/spr_finish.yy",},"order":17,},
     {"id":{"name":"rm_Fight","path":"rooms/rm_Fight/rm_Fight.yy",},"order":2,},
@@ -90,7 +92,6 @@
     {"id":{"name":"obj_buttonReturnToTitle","path":"objects/obj_buttonReturnToTitle/obj_buttonReturnToTitle.yy",},"order":5,},
     {"id":{"name":"spr_trash10","path":"sprites/spr_trash10/spr_trash10.yy",},"order":11,},
     {"id":{"name":"obj_buttonBack","path":"objects/obj_buttonBack/obj_buttonBack.yy",},"order":4,},
-    {"id":{"name":"rm_Win","path":"rooms/rm_Win/rm_Win.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Linux","path":"options/linux/options_linux.yy",},
@@ -111,8 +112,8 @@
     {"roomId":{"name":"rm_day","path":"rooms/rm_day/rm_day.yy",},},
     {"roomId":{"name":"rm_Dumpster","path":"rooms/rm_Dumpster/rm_Dumpster.yy",},},
     {"roomId":{"name":"rm_Fight","path":"rooms/rm_Fight/rm_Fight.yy",},},
-    {"roomId":{"name":"rm_Win","path":"rooms/rm_Win/rm_Win.yy",},},
     {"roomId":{"name":"rm_Instructions","path":"rooms/rm_Instructions/rm_Instructions.yy",},},
+    {"roomId":{"name":"rm_Win","path":"rooms/rm_Win/rm_Win.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},

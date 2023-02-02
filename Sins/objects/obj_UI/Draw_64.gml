@@ -16,39 +16,39 @@ if (room != rm_Instructions)
 		}
 	
 		draw_set_color(c_white);
-		draw_text_transformed((room_width/2)-170, 200, string("End of day: ") + string(global.day),2,2,0);
+		draw_text_transformed((room_width/2)-160, 200, string("End of day: ") + string(global.day),2,2,0);
 		if (showElementOne)
 		{
 			if (sign(global.hungerLevel + 4 - obj_gameManager.starting_health) >= 0) {
-				draw_text_transformed((room_width/2)-170, 240, string("Food eaten: +") + string(global.hungerLevel + 4 - obj_gameManager.starting_health),2,2,0);
+				draw_text_transformed((room_width/2)-160, 240, string("Food eaten: +") + string(global.hungerLevel + 4 - obj_gameManager.starting_health),2,2,0);
 			}
 			else {
-				draw_text_transformed((room_width/2)-170, 240, string("Food eaten: ") + string(global.hungerLevel + 4 - obj_gameManager.starting_health),2,2,0);
+				draw_text_transformed((room_width/2)-160, 240, string("Food eaten: ") + string(global.hungerLevel + 4 - obj_gameManager.starting_health),2,2,0);
 			}
 		}
 		if (showElementTwo)
 		{
-			draw_text_transformed((room_width/2)-170, 280, string("New Day health decrease: -4"),2,2,0);
+			draw_text_transformed((room_width/2)-250, 280, string("New Day health decrease: -4"),2,2,0);
 		}
 		if (showElementThree)
 		{
-			draw_text_transformed((room_width/2)-170, 340, string("You showed ") + scr_ReturnProminentSin() + " today.",2,2,0);
+			draw_text_transformed((room_width/2)-250, 340, string("You showed ") + scr_ReturnProminentSin() + " today.",2,2,0);
 			
 		}
 		if (showElementFour) {
 			if (global.playerLuck > 0) {
-				draw_text_transformed((room_width/2)-170, 380, "Congrats! Your next day will be lucky.",2,2,0);
+				draw_text_transformed((room_width/2)-250, 380, "Congrats! Your next day will be lucky.",2,2,0);
 			}
 			else if (global.playerLuck < 0) {
-				draw_text_transformed((room_width/2)-170, 380, "Too bad... Your next day will be unlucky.",2,2,0);
+				draw_text_transformed((room_width/2)-250, 380, "Too bad... Your next day will be unlucky.",2,2,0);
 			}
 			else {
-				draw_text_transformed((room_width/2)-170, 380, "Your next day will be normal.",2,2,0);
+				draw_text_transformed((room_width/2)-250, 380, "Your next day will be normal.",2,2,0);
 			}
 		}
 		if (showElementFour) {
 			show_debug_message("showed");
-			draw_text_transformed((room_width/2)-170, 440, string("Press Space to Continue... "),2,2,0);
+			draw_text_transformed((room_width/2)-250, 440, string("Press Space to Continue... "),2,2,0);
 		}
 		//This is to show how you performed for the day
 		//if (showElementThree)
@@ -64,7 +64,7 @@ if (room != rm_Instructions)
 
 		draw_set_alpha(1);
 		draw_set_colour(c_white);
-		draw_text_transformed((room_width/2)-170, 20, string("End of day: ") + string(floor(global.levelTime)),2,2,0);
+		draw_text_transformed((room_width/2)-170, 20, string("End of day: ") + string(floor(global.levelTime)) + "s",2,2,0);
 
 		draw_text_transformed(15, 10, string("Pleased with: ") + string(scr_getSinName(global.godsPleased)),2,2,0);
 		draw_text_transformed(15, 35, string("Displeased with: ") + string(scr_getSinName(global.godsDispleased)),2,2,0);
@@ -81,7 +81,7 @@ if (room == rm_Instructions && (currentinstruction == 0))
 	draw_rectangle(0, 0, room_width, room_height, 0);
 	
 	draw_set_color(c_white);
-	draw_text_transformed(20,50, ("Sins is a game where you are a raccoon fighting to survive each day... "),2,2,0);
+	draw_text_transformed(20,50, "You are a raccoon fighting to survive for " + string(obj_gameManager.days_to_win) + " days.",2,2,0);
 	if (showElementOne)
 	{
 		draw_text_transformed(20,100,("But you are not the only one fighting to survive."),2,2,0);
