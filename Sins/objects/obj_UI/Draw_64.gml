@@ -153,10 +153,18 @@ if (room == rm_Instructions && (currentinstruction == 2))
 	if (showElementOne)
 	{
 		draw_text_transformed(20,100,("Search for food by dragging trash around with your mouse."),2,2,0);
+		if (!gif_1_spawned) {
+			instance_create_layer(1000, 270, "Instances", obj_drag_gif);
+			gif_1_spawned = true;
+		}
 	}
 	if (showElementTwo)
 	{
 		draw_text_transformed(20,150,("Click on any food you find. Drag the sliders to adjust love and hate."),2,2,0);
+		if (!gif_2_spawned) {
+			instance_create_layer(540, 500, "Instances", obj_adjust_gif);
+			gif_2_spawned = true;
+		}
 	}
 	if (showElementThree)
 	{
